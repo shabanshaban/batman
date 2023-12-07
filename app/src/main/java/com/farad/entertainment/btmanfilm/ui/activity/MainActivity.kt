@@ -12,6 +12,11 @@ class MainActivity : BaseActivity<MainActivityBinding>() {
     private var navigationManager: NavigationManager? = null
     private var navHostFragment: NavHostFragment? = null
 
+    /**
+     *  سلام چون پروژه ی کوچک بود خیلی از تکنوۀوزی هارو داخلش بکار نبردم
+     *
+     * مرسی خسته نباشید
+     */
 
     override fun getBindingView() = MainActivityBinding.inflate(layoutInflater)
 
